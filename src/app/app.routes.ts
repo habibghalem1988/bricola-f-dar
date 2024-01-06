@@ -4,7 +4,7 @@ import { TradesListComponent } from './pages/trades-list/trades-list.component';
 import { TradeDetailsComponent } from './pages/trade-details/trade-details.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AuthComponent } from './pages/auth/auth.component';
-import { _404Component } from './pages/404/404.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 export const routes: Routes = [
     {
         path:'',
@@ -28,7 +28,7 @@ export const routes: Routes = [
     },
     {
         path:'**',
-        component: _404Component
+        component: NotFoundComponent
     }
 
 ];
